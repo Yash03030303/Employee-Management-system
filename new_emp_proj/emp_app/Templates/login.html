@@ -1,0 +1,13 @@
+{% load socialaccount %}
+{% providers_media_js %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login Window</title>
+    </head>
+    <body>
+        <a href="{% provider_login_url "google" %}"> Google Console <a>
+    </body>
+</html>
